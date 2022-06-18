@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserPosts"
+    android:id="@+id/postsLayout">
+
+    <LinearLayout
+        android:layout_width="399dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/newsArrowBack"
+            android:layout_width="77dp"
+            android:layout_height="66dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_arrow_white"
+            android:rotationY="0" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:minHeight="50dp">
+
+        <TextView
+            android:id="@+id/browseText"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/trocchi"
+            android:text="Browse recipes worldwide"
+            android:textColor="@android:color/white"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/openMapButton"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/ic_lupa" />
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

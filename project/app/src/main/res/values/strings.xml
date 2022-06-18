@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Home Of Recipes</string>
+    <string name="hintPass">Please enter password</string>
+    <string name="hintEmail">Please enter email</string>
+    <string name="loginButton">Login</string>
+    <string name="signupButton">Register</string>
+    <string name="emailText">E-mail</string>
+    <string name="passText">Password</string>
+    <string name="confPassText">Confirm Password</string>
+    <string name="createAcc">Create an Account</string>
+    <string name="usernameText">Username</string>
+    <string name="lNameText">Last Name</string>
+    <string name="api_key">AIzaSyCNHY52D5MpgWNAPf16xSAtOfVrlBFqO_g</string>
+    <string name="facebook_app_id">773348800297596</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">1c2889bbab4c5225a3c052d38c8c6bbe</string>
+</resources>
